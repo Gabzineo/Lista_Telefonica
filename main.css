@@ -12,7 +12,7 @@
   }
 
 body{
-    background-color: #e7e7e7;
+    background-color: #ffffff;
     padding-top: 100px;
 }
 
@@ -49,20 +49,29 @@ form input {
     font-size: 17px;
     padding: 0.5em; /* padding proporcional */
     background-color: #ffffff;
-    border: none;
+    border: 1px solid black;
     border-bottom: 2px solid #000;
 }
 
 
 
 form button{
-background-color: #009432;
+background-color: #11b347;
 color: rgb(255, 255, 255);
 font-size: 24px;
 font-weight: bold;
 border: none;
 cursor: pointer;
 padding: 15px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
 }
 
 table{
@@ -78,8 +87,8 @@ table th{
 
 table td{
     text-align: center;
-    font-size: 18px;
-    padding: 20px 0;
+    font-size: 1px;
+    padding: 10px 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     
 }
